@@ -1,0 +1,30 @@
+{
+    "name": "pavankataria/blackjack",
+    "description": "Black Jack Tool",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^5.6",
+        "beberlei/assert": "^2.7",
+        "cysha/casino": "dev-master",
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavan Kataria",
+            "email": "kataria.pavan@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4" : {
+            "PavanKataria\\BlackJack\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PavanKataria\\BlackJack\\Test\\": "tests/"
+        }
+    }
+}
