@@ -14,7 +14,7 @@ class ChipsTest extends PHPUnit_Framework_TestCase
 
         $expectedAmount = $chips->amount();
 
-        $this->assertEquals(0, $expectedAmount);
+        static::assertEquals(0, $expectedAmount);
     }
 
     /** @test */
@@ -24,7 +24,7 @@ class ChipsTest extends PHPUnit_Framework_TestCase
 
         $expectedAmount = $chips->amount();
 
-        $this->assertEquals(500, $expectedAmount);
+        static::assertEquals(500, $expectedAmount);
     }
 
     /**

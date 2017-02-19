@@ -9,7 +9,6 @@
 namespace PavanKataria\BlackJack\Exception;
 
 
-use Assert\AssertionFailedException;
 use Assert\InvalidArgumentException;
 
 /**
