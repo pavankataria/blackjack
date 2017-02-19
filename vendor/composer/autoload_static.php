@@ -34,10 +34,6 @@ class ComposerStaticInitccb0667fce2624789757137e43f7c145
             'PavanKataria\\BlackJack\\Test\\' => 28,
             'PavanKataria\\BlackJack\\' => 23,
         ),
-        'M' => 
-        array (
-            'Money\\' => 6,
-        ),
         'I' => 
         array (
             'Illuminate\\' => 11,
@@ -60,9 +56,9 @@ class ComposerStaticInitccb0667fce2624789757137e43f7c145
     public static $prefixDirsPsr4 = array (
         'phpDocumentor\\Reflection\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            0 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -83,10 +79,6 @@ class ComposerStaticInitccb0667fce2624789757137e43f7c145
         'PavanKataria\\BlackJack\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Money\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/moneyphp/money/src',
         ),
         'Illuminate\\' => 
         array (
