@@ -29,7 +29,6 @@ class Chips
     public function __construct(int $amount)
     {
         ChipAssertion::greaterOrEqualThan($amount, 0, 'Chip amount cannot be negative');
-
         $this->amount = $amount;
     }
 
@@ -49,7 +48,6 @@ class Chips
     {
         return new static($amount);
     }
-
 
     /**
      * @return int

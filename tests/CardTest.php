@@ -8,20 +8,49 @@
 
 namespace PavanKataria\BlackJack\Test;
 
+use PavanKataria\BlackJack\Card;
 use PHPUnit_Framework_TestCase;
 
 class CardTest extends PHPUnit_Framework_TestCase
 {
     /** @test */
-    public function it_can_be_hidden() {
-        $card = Card::faceDown();
-        $this->assertFalse($card->isFaceUp());
+    public function it_can_be_hidden()
+    {
+        $stub = $this->getMockForAbstractClass(
+            Card::class,
+            [],
+            '',
+            false,
+            true,
+            true,
+            ['isFaceDown']
+        );
+
+        $stub->expects(static::any())
+             ->method('isFaceDown')
+             ->will(static::returnValue(true));
+
+        static::assertTrue($stub->isFaceDown());
     }
 
     /** @test */
-    public function it_can_be_visible()
+    public function it_can_be_shown()
     {
-        $card = Card::faceUp();
-        $this->assertTrue($card->isFaceUp());
+        $stub = $this->getMockForAbstractClass(
+            Card::class,
+            [],
+            '',
+            false,
+            true,
+            true,
+            ['isFaceUp']
+        );
+
+        $stub->expects(static::any())
+            ->method('isFaceUp')
+            ->will(static::returnValue(true))
+        ;
+
+        static::assertTrue($stub->isFaceDown(false));
     }
 }
