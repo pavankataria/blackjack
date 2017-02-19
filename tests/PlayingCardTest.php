@@ -40,10 +40,30 @@ class PlayingCardTest extends PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function it_can_create_a_card_with_face_value_constants(){
+    public function it_can_create_a_card_with_face_value_constants()
+    {
         $builtCard = PlayingCard::make(PlayingCard::JACK, Suit::clubs());
         $builtCard2 = PlayingCard::make(PlayingCard::ACE, Suit::clubs());
         static::assertEquals(11, $builtCard->value);
         static::assertEquals(1, $builtCard2->value);
     }
+
+    /** @test */
+    public function it_can_return_a_value_in_short_string_representation()
+    {
+        $builtCard = PlayingCard::make(5, Suit::clubs());
+        $builtCard2 = PlayingCard::make(PlayingCard::ACE, Suit::clubs());
+        static::assertEquals("5", $builtCard->valueShortName());
+        static::assertEquals("A", $builtCard2->valueShortName());
+    }
+    /** @test */
+    public function it_can_return_a_value_in_full_string_representation()
+    {
+        $builtCard = PlayingCard::make(5, Suit::clubs());
+        $builtCard2 = PlayingCard::make(PlayingCard::ACE, Suit::clubs());
+        static::assertEquals("Five", $builtCard->valueFullName());
+        static::assertEquals("Ace", $builtCard2->valueFullName());
+    }
+
 }
+

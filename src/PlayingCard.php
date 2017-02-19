@@ -5,6 +5,8 @@ namespace PavanKataria\BlackJack;
 
 use Assert\Assert;
 use Assert\Assertion;
+use Illuminate\Support\Collection;
+use NumberFormatter;
 use PavanKataria\BlackJack\Assertion\PlayingCardAssertion;
 use PavanKataria\BlackJack\Exception\PlayingCardException;
 
@@ -90,20 +92,31 @@ class PlayingCard
         PlayingCardAssertion::inArray($value, $this->validValues);//, "Cannot create playing card from " . $value);
     }
 
-//    /**
-//     * Returns the name of the value in full. E.g. K, T, 8, etc.
-//     * @return string
-//     */
-//    public function valueShortName(): string {
-//        return $this-> $this->value
-//    }
-//
-//    /**
-//     * Returns the name of the value in full. E.g. King, Ten, Eight, etc.
-//     *
-//     * @return string
-//     */
-//    public function valueFullName(): string {
-//
-//    }
+    /**
+     * Returns the name of the value in full. E.g. K, T, 8, etc.
+     * @return string
+     */
+    public function valueShortName(): string {
+        if (\in_array($this->value, \array_keys($this->shortFaceNames), true)) {
+            $shortNameValue = $this->shortFaceNames[$this->value];
+        } else {
+            $shortNameValue = $this->value;
+        }
+        return strtoupper($shortNameValue);
+    }
+
+    /**
+     * Returns the name of the value in full. E.g. King, Ten, Eight, etc.
+     *
+     * @return string
+     */
+    public function valueFullName(): string {
+        if (\in_array($this->value, \array_keys($this->fullFaceNames), true)) {
+            $fullNameValue = $this->fullFaceNames[$this->value];
+        } else {
+            $f = new NumberFormatter("en", NumberFormatter::SPELLOUT);
+            $fullNameValue = $f->format($this->value);
+        }
+        return ucfirst(strtolower($fullNameValue));
+    }
 }
