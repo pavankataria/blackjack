@@ -9,10 +9,10 @@
 namespace PavanKataria\BlackJack\Test;
 
 
-use PavanKataria\BlackJack\Exception\PlayingCardException;
-use PavanKataria\BlackJack\Cards\PlayingCard;
-use PavanKataria\BlackJack\Cards\Suit;
-use PHPUnit_Framework_TestCase;
+        use PavanKataria\BlackJack\Exception\PlayingCardException;
+        use PavanKataria\BlackJack\Cards\PlayingCard;
+        use PavanKataria\BlackJack\Cards\Suit;
+        use PHPUnit_Framework_TestCase;
 
 /**
  * Class PlayingCardTest

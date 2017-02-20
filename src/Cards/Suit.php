@@ -73,7 +73,7 @@ class Suit
      *
      * @param $suit
      */
-    public function __construct($suit)
+    private function __construct($suit)
     {
         $this->suit = $suit;
     }
