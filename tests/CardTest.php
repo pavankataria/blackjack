@@ -8,7 +8,7 @@
 
 namespace PavanKataria\BlackJack\Test;
 
-use PavanKataria\BlackJack\Card;
+use PavanKataria\BlackJack\Cards\Card;
 use PHPUnit_Framework_TestCase;
 
 class CardTest extends PHPUnit_Framework_TestCase

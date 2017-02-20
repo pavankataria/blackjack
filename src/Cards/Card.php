@@ -1,5 +1,5 @@
 <?php
-namespace PavanKataria\BlackJack;
+namespace PavanKataria\BlackJack\Cards;
 
 /**
  * Class Card
