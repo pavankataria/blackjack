@@ -8,48 +8,43 @@
 
 namespace PavanKataria\BlackJack\Casino;
 
-
 use PavanKataria\BlackJack\Assertion\TableAssertion;
-use PavanKataria\BlackJack\Exception\TableException;
 
 /**
  * Class Table
+ *
  * @package PavanKataria\BlackJack\Casino
  */
 class Table
 {
     /**
-     * @var int
+     * A collection of seats for this table
+     *
+     * @var SeatCollection
      */
-    protected $seatCapacity;
+    private $seats;
 
     /**
      * Table constructor.
      *
-     * @param int $seatCapacity
+     * @param int $seatCapacity The number of seats for a new table
      */
     private function __construct(int $seatCapacity)
     {
-        $this->seatCapacity = $seatCapacity;
-        $this->constructSeats($seatCapacity);
-    }
+        TableAssertion::greaterThan($seatCapacity, 0);
 
-    /**
-     * @param int $seatCapacity
-     */
-    private function constructSeats(int $seatCapacity)
-    {
         $this->seats = SeatCollection::makeEmptySeats($seatCapacity);
     }
 
     /**
      * Creates a table instance defining the total seat capacity
-     * @param int $seatCapacity
+     *
+     * @param int $seatCapacity The number of seats for a new table
+     *
      * @return Table
      */
     public static function openWithSeatCapacity(int $seatCapacity)
     {
-        TableAssertion::greaterThan($seatCapacity, 0);
         return new static($seatCapacity);
     }
 
@@ -60,7 +55,7 @@ class Table
      */
     public function totalSeatCapacity(): int
     {
-        return $this->seatCapacity;
+        return $this->seats->count();
     }
 
     /**
@@ -70,6 +65,11 @@ class Table
      */
     public function isEmpty(): bool
     {
-        return true;
+        return $this->seats->reject(
+            function (Seat $seat) {
+                return $seat->isEmpty();
+            }
+        )
+        ->count() === 0;
     }
 }

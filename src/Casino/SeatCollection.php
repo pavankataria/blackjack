@@ -26,7 +26,7 @@ class SeatCollection extends Collection
      */
     public static function makeEmptySeats(int $seatCapacity)
     {
-        return (new static(range(0, $seatCapacity)))
+        return (new static(\range(1, $seatCapacity)))
             ->map(function () {
                 return Seat::empty();
             });

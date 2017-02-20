@@ -27,8 +27,8 @@ class CardTest extends PHPUnit_Framework_TestCase
         );
 
         $stub->expects(static::any())
-             ->method('isFaceDown')
-             ->will(static::returnValue(true));
+            ->method('isFaceDown')
+            ->will(static::returnValue(true));
 
         static::assertTrue($stub->isFaceDown());
     }
@@ -48,8 +48,9 @@ class CardTest extends PHPUnit_Framework_TestCase
 
         $stub->expects(static::any())
             ->method('isFaceUp')
-            ->will(static::returnValue(true))
-        ;
+            ->will(
+                static::returnValue(true)
+            );
 
         static::assertTrue($stub->isFaceDown(false));
     }

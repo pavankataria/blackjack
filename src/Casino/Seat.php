@@ -76,7 +76,8 @@ class Seat
      *
      * return bool
      */
-    public function isAvailabe(){
+    public function isAvailabe()
+    {
         //TODO: CHANGE THIS TO CHECK IF THE PLAYER IS ASSIGNED
         return true;
     }

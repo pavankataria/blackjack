@@ -75,6 +75,7 @@ class Suit
      */
     private function __construct($suit)
     {
+        //TODO: Create a Suit Assertion class that validates.
         $this->suit = $suit;
     }
 

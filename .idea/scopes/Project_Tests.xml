@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Project Tests" pattern="file[BlackJack]:tests/*" />
+</component>
