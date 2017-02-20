@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666a9da4-c471-4694-be32-308f6262c697" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/pavankataria.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Assertion/TableAssertion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Casino/SeatCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Casino/Table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Casino/TableInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exception/TableException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/SeatTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TablesTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cysha/casino" afterPath="$PROJECT_DIR$/vendor/cysha/casino" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BlackJack.iml" afterPath="$PROJECT_DIR$/.idea/BlackJack.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Assertion/ChipAssertion.php.html" afterPath="$PROJECT_DIR$/coverage/Assertion/ChipAssertion.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Assertion/PlayingCardAssertion.php.html" afterPath="$PROJECT_DIR$/coverage/Assertion/PlayingCardAssertion.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Assertion/dashboard.html" afterPath="$PROJECT_DIR$/coverage/Assertion/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Assertion/index.html" afterPath="$PROJECT_DIR$/coverage/Assertion/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/BlackJackHand.php.html" afterPath="$PROJECT_DIR$/coverage/BlackJackHand.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Cards/Card.php.html" afterPath="$PROJECT_DIR$/coverage/Cards/Card.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Cards/PlayingCard.php.html" afterPath="$PROJECT_DIR$/coverage/Cards/PlayingCard.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Cards/Suit.php.html" afterPath="$PROJECT_DIR$/coverage/Cards/Suit.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Cards/dashboard.html" afterPath="$PROJECT_DIR$/coverage/Cards/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Cards/index.html" afterPath="$PROJECT_DIR$/coverage/Cards/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Chips.php.html" afterPath="$PROJECT_DIR$/coverage/Chips.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Exception/ChipException.php.html" afterPath="$PROJECT_DIR$/coverage/Exception/ChipException.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Exception/PlayingCardException.php.html" afterPath="$PROJECT_DIR$/coverage/Exception/PlayingCardException.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Exception/dashboard.html" afterPath="$PROJECT_DIR$/coverage/Exception/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Exception/index.html" afterPath="$PROJECT_DIR$/coverage/Exception/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/dashboard.html" afterPath="$PROJECT_DIR$/coverage/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cards/Suit.php" afterPath="$PROJECT_DIR$/src/Cards/Suit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Casino/Seat.php" afterPath="$PROJECT_DIR$/src/Casino/Seat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Casino/SeatCollection.php" afterPath="$PROJECT_DIR$/src/Casino/SeatCollection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/PlayingCardTest.php" afterPath="$PROJECT_DIR$/tests/PlayingCardTest.php" />
     </list>
     <ignored path="BlackJack.iws" />
@@ -67,18 +44,18 @@
       <file leaf-file-name="SeatCollection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Casino/SeatCollection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="761">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Seat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Casino/Seat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="2808">
+              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TablesTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TablesTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/TablesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="761">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="e#136#176#0#PHP" expanded="true" />
               </folding>
@@ -155,10 +132,10 @@
         <option value="$PROJECT_DIR$/src/Cards/Suit.php" />
         <option value="$PROJECT_DIR$/tests/SeatTest.php" />
         <option value="$PROJECT_DIR$/src/Casino/TableInterface.php" />
-        <option value="$PROJECT_DIR$/tests/TablesTest.php" />
         <option value="$PROJECT_DIR$/src/Casino/Table.php" />
-        <option value="$PROJECT_DIR$/src/Casino/SeatCollection.php" />
         <option value="$PROJECT_DIR$/src/Casino/Seat.php" />
+        <option value="$PROJECT_DIR$/src/Casino/SeatCollection.php" />
+        <option value="$PROJECT_DIR$/tests/TablesTest.php" />
       </list>
     </option>
   </component>
@@ -283,6 +260,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJack" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysha" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="casino" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJack" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -343,7 +356,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="power.mode.ii" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.php.tools.quality.phpcs.PhpCSConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -431,12 +444,12 @@
       <workItem from="1487523370065" duration="16246000" />
       <workItem from="1487540591070" duration="11345000" />
       <workItem from="1487565027276" duration="4834000" />
-      <workItem from="1487596299245" duration="1383000" />
+      <workItem from="1487596299245" duration="2840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59667000" />
+    <option name="totallyTimeSpent" value="61124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1308" y="-1320" width="1781" height="1141" extended-state="0" />
@@ -448,10 +461,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868353" sideWeight="0.5021575" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868353" sideWeight="0.4978425" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4978425" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216981" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -459,12 +474,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -507,27 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/MockObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coverage/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -863,16 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TablesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding>
-            <element signature="e#136#176#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Casino/Table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -883,27 +865,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Casino/Seat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="975" column="0" selection-start-line="975" selection-start-column="0" selection-end-line="975" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="972" column="13" selection-start-line="972" selection-start-column="13" selection-end-line="972" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cysha/casino/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Casino/SeatCollection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="761">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino/Seat.php">
+    <entry file="file://$PROJECT_DIR$/tests/TablesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="761">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="e#136#176#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

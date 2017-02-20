@@ -42,7 +42,6 @@ class Seat
         return new static(self::EMPTY);
     }
 
-
     /**
      * Returns true if the seat is empty
      *
@@ -62,7 +61,6 @@ class Seat
         return $this->state === self::RESERVED;
     }
 
-
     /**
      * Returns true if a player is assigned to the seat
      *
@@ -76,11 +74,11 @@ class Seat
     /**
      * Returns true if a player is assigned to the seat
      *
-     *
+     * return bool
      */
     public function isAvailabe(){
         //TODO: CHANGE THIS TO CHECK IF THE PLAYER IS ASSIGNED
-
+        return true;
     }
     //ROADMAP: Add timer for how long the player has seated.
 }
